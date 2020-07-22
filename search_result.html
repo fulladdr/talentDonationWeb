@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>검색 결과</title>
+</head>
+<body>
+    <h1>검색결과</h1> 
+    <input type="search" placeholder="검색어 입력">
+    <button>검색</button>
+    <table>
+        <tr>
+            <th>지역</th>
+            <td>
+                <select name="지역">
+                    <option value="seoul">공덕</option>
+                    <option value="kyeonggi">병점</option>
+                </select>
+        </tr>
+        <tr>
+            <th>시간</th>
+            <td>
+
+                <label for="monday">월</label>
+                <input type="checkbox" id="monday" value="mon">
+                <label for="tuesday">화</label>
+                <input type="checkbox" id="tuesday" value="tue">
+                <label for="wednesday">수</label>
+                <input type="checkbox" id="wednesday" value="wed">
+                <label for="thursday">목</label>
+                <input type="checkbox" id="thursday" value="thu">
+                <label for="firday">금</label>
+                <input type="checkbox" id="firday" value="fri">
+                <label for="saturday">토</label>
+                <input type="checkbox" id="saturday" value="sat">
+                <label for="sunday">일</label>
+                <input type="checkbox" id="sunday" value="sun">
+            </td>
+        </tr>    
+        <tr>
+            <th>수업형태</th>
+            <td>
+                <label for="one_to_one">1:1</label>
+                <input type="radio" id="one_to_one" name="class_radio" value="one_to_one">
+                <label for="group">그룹</label>
+                <input type="radio" id="group" name="class_radio" value="sagroupt">
+                <label for="one_day">원데이</label>
+                <input type="radio" id="one_day" name="class_radio" value="one_day">
+            </td>
+        </tr>
+        
+    </table>
+    <ul>
+        <li>
+            <textarea rows =10 cols=30>나만의 음색을 찾고...</textarea>
+        </li>
+        <li>
+            <textarea rows =10 cols=30>동요의 세계</textarea>
+        </li>
+        <li>
+            <textarea rows =10 cols=30>김치찌개 맛있게 끓이는 방법</textarea>
+        </li>
+    </ul>
+</body>
+</html>
