@@ -6,26 +6,27 @@
     <title>수업신청서</title>
 </head>
 <body>
-    <p>
     <form action="url" method="post">
-        <h3>일정선택</h3>
-        <input type="checkbox" name="time" value="time1"> 05.25(토) 14:00-17:00 신촌<br>
-        <input type="checkbox" name="time" value="time1"> 06.01(토) 14:00-17:00 신촌<br>
-        <input type="checkbox" name="time" value="time1"> 06.08(토) 14:00-17:00 강남<br>
-    </form>
-        <h3>신청서 작성</h3>
+        <h1>일정선택</h1>
+        <input type="checkbox" name="time1" value="time1"> 05.25(토) 14:00-17:00 신촌<br>
+        <input type="checkbox" name="time2" value="time1"> 06.01(토) 14:00-17:00 신촌<br>
+        <input type="checkbox" name="time3" value="time1"> 06.08(토) 14:00-17:00 강남<br>
+        <h2>신청서 작성</h2>
+        <ul>
         <li>레벨</li>
-        <input type="checkbox" name="time" value="time1"> starter <br>
-        <input type="checkbox" name="time" value="time1"> intermediate <br>
-        <input type="checkbox" name="time" value="time1"> advanced <br>
+        <select name = level>
+        <option value="starter">초급</option>
+        <option value="interemdeiate">중급</option>
+        <option value="advanced">고급</option>
+        </select>
         <li>경력</li>
         <label for=career_year></label>
             <input id="career_year" type="text">
         <li>튜터에게 전하는 말</li>
         <textarea row = 15 cols = 100>
         </textarea>
+        </ul>
     </form>
-    </p>
     <input type = "submit" value = "저장">
     <input type = "reset" value = "초기화">
 </body>

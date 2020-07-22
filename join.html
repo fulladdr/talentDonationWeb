@@ -6,34 +6,28 @@
     <title>회원가입</title>
 </head>
 <body>
+<form action = "url" method = post>
    <h1>회원가입</h1>
-    <main role = "main">
-        <p>
         <ul>
             <li>
-                <label for=cs_id>ID</label>
-                <input id="cs_id" type="text">
+                <label for=id>ID</label>
+                <input id="id" type="text">
            </li>
-           <li>
-                <label for=cf_id>CONFIRM ID</label>
-                <input id="cf_id" type="text">
+            <li>
+                <label for=pw>PASSWORD</label>
+                <input id="pw" type="password">
             </li>
             <li>
-                <label for=cs_pw>PASSWORD</label>
-                <input id="cs_pw" type="password">
+                <label for=name>이름</label>
+                <input id="name" type="text">
             </li>
             <li>
-                <label for=cs_name>이름</label>
-                <input id="cs_name" type="text">
-            </li>
-            <li>
-                <label for=cs_phone>전화번호</label>
-                <input id="cs_phone" type="text">
+                <label for=phone>전화번호</label>
+                <input id="phone" type="text">
             </li>
         </ul>
-        </p>
         <input type = "submit" value = "저장">
         <input type = "reset" value = "초기화">
-    </main>
+</form>
 </body>
 </html>
