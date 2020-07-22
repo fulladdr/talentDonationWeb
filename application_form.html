@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>수업신청서</title>
+    <style>
+        div{
+            background-color: deepskyblue;
+            color:white;
+        }
+        #select{
+            color:black;
+        }
+    </style>
 </head>
 <body>
     <form action="url" method="post">
-        <h1>일정선택</h1>
+        <div id = "select">일정선택</div>
         <input type="checkbox" name="time1" value="time1"> 05.25(토) 14:00-17:00 신촌<br>
         <input type="checkbox" name="time2" value="time1"> 06.01(토) 14:00-17:00 신촌<br>
         <input type="checkbox" name="time3" value="time1"> 06.08(토) 14:00-17:00 강남<br>
-        <h2>신청서 작성</h2>
+        <div>신청서 작성</div>
         <ul>
         <li>레벨</li>
         <select name = level>
