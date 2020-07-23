@@ -1,0 +1,13 @@
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    margin: 10px 100px;
+}
+
+
+.header_button{
+    border: 1px;
+    border-radius: 30%;
+}

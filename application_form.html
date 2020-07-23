@@ -20,17 +20,20 @@
             justify-content: space-between;
             align-items: center;
         }
+
     </style>
 </head>
 <body>
-    <header>
+<header>
+    <div class = "header__col">
         <h1>재능 기부</h1>
-        <nav>
-            <span>로그인</span>
-            <span>회원가입</span>
-            <span>나의 프로필</span>
-        </nav>
-    </header>
+    </div>
+    <div class = "header__col">
+            <div><a href = "login.html">로그인</a></div>
+            <div><a href = "join.html">회원가입</a></div>
+            <div><a href = "profile.html">나의 프로필</a></div>
+    </div>
+</header>
     <form action="url" method="post">
         <div id = "select">일정선택</div>
         <input type="checkbox" name="time1" value="time1"> 05.25(토) 14:00-17:00 신촌<br>
