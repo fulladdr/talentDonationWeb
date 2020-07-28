@@ -1,54 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>로그인</title>
-    <!--<style>
-        li {
-            list-style-type: none;
-        }
-        .login_btn {
-            display: block;
-            float: left;
-        }
-    </style>
--->
-</head>
+<html>
+  <head>
+    <title>Kokoa Tribe</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/f3e093db79.js" crossorigin="anonymous"></script>
+  </head>
 
-<body>
-<header>
-    <div class = "header__col">
-        <h1>재능 기부</h1>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <div class="status-bar__title">
+          <i class="fas fa-cube"></i>
+          <span class="status-bar__name">BLOCKPINK</span>
+        </div>
+      </div>
+      <div class="status-bar__column">
+        <div class="status-bar__button login">
+          <a href="login.html">로그인</a>
+        </div>
+        <div class="status-bar__button signup"><a href="join.html">회원가입</a></div>
+        <div class="status-bar__button profile"><a href="profile.html">나의 프로필</a></div>
+      </div>
     </div>
-    <div class = "header__col">
-        <div><a href = "login.html">로그인</a></div>
-        <div><a href = "join.html">회원가입</a></div>
-        <div><a href = "profile.html">나의 프로필</a></div>
+    <div class="login__searchcontainer">
+      <form action="#" method="get">
+        <input type="text" placeholder="웹사이트 개발" class="login__search" />
+        <i class="fas fa-search"></i>
+      </form>
     </div>
-</header>
-    <h1>로그인</h1>  
-    <ul>
-        <li> 
-            <label for=cs_id>ID</label>
-            <input id="cs_id" type="text">
-        </li>
-        <li>
-            <label for=cs_pw>PASSWORD</label>
-            <input id="cs_pw" type="password">
-        </li>
-    </ul>
-    <ul >
-        <li>
-            <button class = "login_btn">비밀번호 찾기</button>
-        </li>
-        <li>
-            <button class = "login_btn">아이디 찾기</button>
-        </li>
-        <li>
-            <button class = "login_btn">회원가입</button>
-        </li>
-    </ul>
-
-</body>
+    <div class="base">
+    <main class="phone__base">
+      <span class="site__text site__title">
+        Sign in
+      </span>
+      <input type="text" placeholder="email" class="site__box site__inpt" />
+      <input type="text" placeholder="password" class="site__box site__inpt" />
+      <span class="site__text site__text-s text-r text-right">
+        Forgot password?
+      </span>
+      <div class="site__text">
+        <div class="site__check-box">
+          <i class="fas fa-check"></i>
+        </div>
+        <span class="site__text-s">Remember Me</span>
+      </div>
+      <div class="site__box site__btn btn-s">Sign in</div>
+      <span class="site__text">OR</span>
+      <div class="site__row">
+        <div class="site__column">
+          <div class="site__box site__btn btn-f">Facebook</div>
+        </div>
+        <div class="site__column">
+          <div class="site__box site__btn btn-t">Twitter</div>
+        </div>
+      </div>
+      <div class="site__text">
+        <span class="site__text-s">
+          need an account?
+        </span>
+        <span class="site__text-s text-r">
+          Sign up
+        </span>
+      </div>
+      <div class="site__text">
+        <span class="site__text-s">
+          forgot your password?
+        </span>
+        <span class="site__text-s text-r">
+          Retrive
+        </span>
+      </div>
+    </div>
+    </main>
+  </body>
 </html>
