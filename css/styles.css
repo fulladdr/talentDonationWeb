@@ -1,8 +1,8 @@
-@import "reset.css";
 @import "login.css";
 @import "status-bar.css";
 @import "application.css";
-@import "application_content.css";
+@import "content.css";
+@import "new_profile.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 html {

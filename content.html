@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>application_form</title>
+    <title>application_content</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -92,11 +92,8 @@
           </div>
         </div>
         <div>
-          <div class="comment-number">댓글 : 5개</div>
-          <div class="bottom-hits">
-            <div class="bar" style="padding: 0px 5px !important;"></div>
-            조회 : 314
-          </div>
+          <div class="comment-number">댓글 : 2개</div>
+          
         </div>
         <div class="post-element comments_area">
           <div id = "comments_area_html">
@@ -107,8 +104,35 @@
               <div class="comment-header">
                 <div class="comment-user">
                   문채원
+                </div>                
+                <div class="comment-remove"><div class="remove1" style="cursor: pointer; cursor: hand;">
                 </div>
-                <div class="comment-date">07/30 11:56</div>
+                    <div class="remove2" style="display:none;">
+                        <div class="reply_comments_button" style="display:inline-block;">
+                           
+                                <button class="reply_comment" style="border: 0; background: transparent;" value="6400674"></button>
+                        </div>
+
+                          
+                        <button class="btn" value="6400674" onclick="report_comment(6400674);return false;" style="background-color: #fff;display: inline-block;cursor: hand;font-size:17px;"></button>
+                         
+                    </div>
+                </div>
+            </div>
+            <div class="mverdana comment-content">지원 희망합니다</div>
+          </div>
+          </div>
+        </div>
+        <div class="post-element comments_area">
+          <div id = "comments_area_html">
+            <hr>
+            <div class="comment" id =comments_123" style= " ">
+            <input type="hidden" name="comments_num" value=123">
+              <input type="hidden" name="comments_depth" value="0">
+              <div class="comment-header">
+                <div class="comment-user">
+                  한수영
+                </div>
                 
                 <div class="comment-remove"><div class="remove1" style="cursor: pointer; cursor: hand;">
                 </div>
@@ -124,9 +148,11 @@
                     </div>
                 </div>
             </div>
+            <div class="mverdana comment-content">지원합니다!</div>
           </div>
           </div>
         </div>
+
       </div>
     </main>
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>

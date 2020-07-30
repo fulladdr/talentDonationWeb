@@ -1,0 +1,53 @@
+.con {
+  padding: 100px 0 20px 0;
+}
+
+.con2 {
+  padding-top: 30px;
+}
+.profile_wrap {
+  border: solid 1px #d1d1d1;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.profile_wrap p.photo_box {
+  float: left;
+  margin-right: 30px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #747474;
+  word-break: break-all !important;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+ul,
+ol {
+  margin-top: 0;
+}
+
+ol,
+up {
+  list-style: none;
+}
+
+.head_title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}

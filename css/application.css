@@ -5,10 +5,9 @@
 }
 
 .post_element {
-  padding: 60px 12px auto auto;
-  padding-top: 50px;
-  font-size: 22px;
-  margin-top: 50px;
+  font-size: 25px;
+  padding: 50px 0;
+  padding-top: 100px;
 }
 
 table {
@@ -30,10 +29,12 @@ thead {
 }
 
 element.style {
-  padding: 5px;
+  margin: auto;
+  padding: auto;
+  border: auto;
 }
 
-.small-container {
+small-container {
   margin: 12px;
   padding: 15px;
 }
@@ -43,7 +44,7 @@ element.style {
   line-height: 20px;
   min-height: 1px;
   padding-bottom: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
@@ -56,4 +57,13 @@ element.style {
 form {
   display: block;
   margin-top: 0em;
+}
+
+.title-align {
+  margin: auto;
+}
+
+.hidden-xs {
+  border: auto;
+  margin: auto auto;
 }

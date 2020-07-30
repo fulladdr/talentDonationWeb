@@ -1,61 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>수업신청서</title>
-    <style>
-        div{
-            background-color: lemonchiffon;
-            color:black;
-            font-weight: bold;
-        }
-        header{
-            height: 75px;
-            padding: 1rem;
-            color: white;
-            background: teal;
-            font-weight: bold;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-    </style>
-</head>
-<body>
-<header>
-    <div class = "header__col">
+  </head>
+  <body>
+    <header class="application_form_header">
+      <div class="header__col">
         <h1>재능 기부</h1>
-    </div>
-    <div class = "header__col">
-            <div><a href = "login.html">로그인</a></div>
-            <div><a href = "join.html">회원가입</a></div>
-            <div><a href = "profile.html">나의 프로필</a></div>
-    </div>
-</header>
+      </div>
+      <div class="header__col">
+        <div><a href="login.html">로그인</a></div>
+        <div><a href="join.html">회원가입</a></div>
+        <div><a href="profile.html">나의 프로필</a></div>
+      </div>
+    </header>
     <form action="url" method="post">
-        <div id = "select">일정선택</div>
-        <input type="checkbox" name="time1" value="time1"> 05.25(토) 14:00-17:00 신촌<br>
-        <input type="checkbox" name="time2" value="time1"> 06.01(토) 14:00-17:00 신촌<br>
-        <input type="checkbox" name="time3" value="time1"> 06.08(토) 14:00-17:00 강남<br>
-        <div>신청서 작성</div>
-        <ul>
+      <div id="select">일정선택</div>
+      <input type="checkbox" name="time1" value="time1" /> 05.25(토) 14:00-17:00 신촌<br />
+      <input type="checkbox" name="time2" value="time1" /> 06.01(토) 14:00-17:00 신촌<br />
+      <input type="checkbox" name="time3" value="time1" /> 06.08(토) 14:00-17:00 강남<br />
+      <div>신청서 작성</div>
+      <ul>
         <li>레벨</li>
-        <select name = level>
-        <option value="starter">초급</option>
-        <option value="interemdeiate">중급</option>
-        <option value="advanced">고급</option>
+        <select name="level">
+          <option value="starter">초급</option>
+          <option value="interemdeiate">중급</option>
+          <option value="advanced">고급</option>
         </select>
         <li>경력</li>
-        <label for=career_year></label>
-            <input id="career_year" type="text">
+        <label for="career_year"></label>
+        <input id="career_year" type="text" />
         <li>튜터에게 전하는 말</li>
-        <textarea row = 15 cols = 100>
-        </textarea>
-        </ul>
+        <textarea row="15" cols="100"> </textarea>
+      </ul>
     </form>
-    <input type = "submit" value = "저장">
-    <input type = "reset" value = "초기화">
-</body>
+    <input type="submit" value="저장" />
+    <input type="reset" value="초기화" />
+  </body>
 </html>
