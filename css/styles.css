@@ -14,15 +14,19 @@ body {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
 }
+
 nav {
   padding: 0;
-  background-color: #1266ff !important;
   border-width: 0 !important;
   border-radius: 0 !important;
   margin-bottom: 0 !important;
@@ -39,13 +43,6 @@ nav {
 
 .mgothic {
   font-family: "맑은 고딕", Verdana, Arial, Gulim, helvetica, sans-serif;
-}
-
-.post_element {
-  padding: 0 0 5px;
-  padding-left: 12px;
-  font-size: 22px;
-  margin-top: 50px;
 }
 
 * {
