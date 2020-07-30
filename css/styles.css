@@ -2,27 +2,43 @@
 @import "login.css";
 @import "status-bar.css";
 @import "application.css";
+@import "application_content.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
-body {
-  font-family: Verdana, Arial, Gulim, helvetica, sans-serif;
-  background-color: #f8f8f8;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  margin: 0;
-  display: block;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: Verdana, Arial, Gulim, helvetica, sans-serif;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  margin: 0;
+  display: block;
+  filter: none;
+}
+
+.container-body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.container {
+  width: 750px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 nav {
@@ -61,4 +77,26 @@ div {
 
 .header {
   border-bottom-width: 3px;
+}
+
+.col-xs-12 {
+  width: 100%;
+  float: left;
+}
+
+.table-padding {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.mobile-padding {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+col-lg-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }

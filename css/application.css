@@ -4,16 +4,6 @@
   margin-bottom: 20px;
 }
 
-.table-padding {
-  padding-left: 11px;
-  padding-right: 11px;
-}
-
-.mobile-padding {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-}
-
 .post_element {
   padding: 60px 12px auto auto;
   padding-top: 50px;
@@ -21,23 +11,6 @@
   margin-top: 50px;
 }
 
-.col-xs-12 {
-  width: 100%;
-  float: left;
-}
-
-.container-two {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.container {
-  width: 750px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
 table {
   background-color: transparent;
   border-spacing: 0;
