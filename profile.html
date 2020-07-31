@@ -1,48 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>내 프로필</title>
-</head>
-<body>
-<header>
-    <div class = "header__col">
-        <h1>재능 기부</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <div class="status-bar__title">
+          <i class="fas fa-cube"></i>
+          <span class="status-bar__name"><a href="index.html">BLOCKPINK</a></span>
+        </div>
+      </div>
+      <div class="status-bar__column">
+        <div class="status-bar__button login">
+          <a href="login.html">로그인</a>
+        </div>
+        <div class="status-bar__button signup"><a href="join.html">회원가입</a></div>
+        <div class="status-bar__button profile"><a href="profile.html">나의 프로필</a></div>
+      </div>
     </div>
-    <div class = "header__col">
-        <div><a href = "login.html">로그인</a></div>
-        <div><a href = "join.html">회원가입</a></div>
-        <div><a href = "profile.html">나의 프로필</a></div>
+    <div class="con con1">
+      <div class="container">
+        <div class="profile_wrap">
+          <p class="photo_box"><img src="profile.JPG" width="100px" hgt = "120px"></p>
+          <ul class="cont_box __web-inspector-hide-shortcut__">
+            <p class="name">문채원 (jeymemoon@gmail.com)</p>
+          </br>
+            <li class="first">- 신분 : Provider</li>
+            <li>- 소속 : 서강대학교</li>
+            <li>- 받은쪽지(미확인/전체) : <strong>12</strong> / 13</li>
+            <li>- 남은 토큰 : 500</li>
+        </br>
+
+          </ul>
+        </div>
+      </div>
     </div>
-</header>
-    <h1>내 프로필</h1>
-    <table>
-        <tr>
-            <th>프로필 사진</th>
-            <td>
-            <img src="profile.JPG" width="100px" hgt = "100px">
-            </td>
-        </tr>
-        <tr>
-            <th>ID</th>
-            <td>fulladdr</td>
-        </tr>
-        <tr>
-            <th>이름</th>
-            <td>문재원</td>
-        </tr>
-        <tr>
-            <th>전화번호</th>
-            <td>01012345678</td>
-        </tr>
-        <tr>
-            <th>자기소개</th>
-            <td><textarea></textarea></td>
-        </tr>
-    </table>
-    <button type="submit">저장하기</button>
+    <div class="con con1 con2">
+      <div class="container">
+        <div id="layerContent">
+          <div class="head_title">진행 프로젝트</div>
+          <form name="listForm" method="post" action="MyProjectList.do">
+            <div class="bdCont">
+              <div class="row">
+                <div class="board-search">
+                  <fieldset>
+                    <select id="searchYear" name="searchYear" class="select">
+                      <option value="2020">2020</option>
 
+                      <option value="2019">2019</option>
 
-</body>
+                      <option value="2018">2018</option>
+
+                      <option value="2017">2017</option>
+
+                      <option value="2016">2016</option>
+
+                      <option value="2015">2015</option>
+
+                      <option value="2014">2014</option>
+
+                      <option value="2013">2013</option>
+
+                      <option value="2012">2012</option>
+                    </select>
+
+                    <!-- <strong>검색구분 </strong> -->
+                    <select name="searchType">
+                      <option value="1">프로젝트</option>
+                      <option value="2">개설자</option>
+                      <option value="3">소속</option>
+                    </select>
+                    <input type="text" name="keyword" value="" />
+                    <button class="searchBtn">
+                      <img src="/2019/images/ico_search01.png" alt="" />
+                    </button>
+                  </fieldset>
+                </div>
+              </div>
+              <div class="mList">
+                <div class="projectlistbox_Wrap">
+                  <div class="projectlistbox">
+                    <ul>
+                      <h4>
+                        <p class="tit">
+                          <a href="javascript:void(0);" onclick="fn_egov_select_teamBlog('14347')">
+                           [20_HI002L] 대기업 실무자가 알려주는 신입/인턴도 칼퇴하는 방법!</a
+                          >
+                        </p>
+                      </h4>
+                      <li>- 김재호 </li>
+                      <li>- 2020-05-13 ~ 2020-11-30</li>
+                    </ul>
+                    <div class="ingdiv">
+                      <ul>
+                        <li class="ing_icon01">진행</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="projectlistbox_Wrap">
+                    <div class="projectlistbox">
+                      <ul>
+                        <h4>
+                          <p class="tit">
+                            <a href="javascript:void(0);" onclick="fn_egov_select_teamBlog('14347')">
+                             [20_BJ102L] '쉬운'방법으로 있.어.보.이.는 '고퀄' 영상 만들기</a
+                            >
+                          </p>
+                        </h4>
+                        <li>- Prinsbin </li>
+                        <li>- 2020-04-31 ~ 2020-05-03</li>
+                      </ul>
+                      <div class="ingdiv">
+                        <ul>
+                          <li class="ing_icon01">완료</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+              </div>
+            
+              <div class="layer_wrap4">
+                <input
+                  type="hidden"
+                  name="satisfaction_projectSeq"
+                  id="satisfaction_projectSeq"
+                  value=""
+                />
+                <input
+                  type="hidden"
+                  name="satisfaction_joinSeq"
+                  id="satisfaction_joinSeq"
+                  value=""
+                />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+  </body>
 </html>
