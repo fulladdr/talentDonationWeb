@@ -1,7 +1,6 @@
 .post-element {
   background-color: #fff;
   box-shadow: 0 1px 2px #c4c4c4;
-  padding: 5px;
   margin-bottom: 20px;
   height: auto;
   border-radius: 5px;
@@ -24,6 +23,9 @@
   margin-bottom: 10px;
 }
 
+.comment-box {
+  margin-left: 10px;
+}
 .board-user,
 .page-name,
 .board-hits,
@@ -39,10 +41,9 @@
 .post-element {
   background-color: #fff;
   box-shadow: 0 1px 2px #c4c4c4;
-  padding: 5px;
   margin-bottom: 20px;
   height: auto;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
 }
 
 input,
