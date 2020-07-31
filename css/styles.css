@@ -1,6 +1,6 @@
 @import "login.css";
 @import "status-bar.css";
-@import "application.css";
+@import "course_board.css";
 @import "content.css";
 @import "profile.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
@@ -26,14 +26,6 @@ body {
 .container-body {
   padding-left: 0 !important;
   padding-right: 0 !important;
-}
-
-.container {
-  width: 750px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 a {

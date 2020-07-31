@@ -28,14 +28,22 @@ thead {
   border-color: inherit;
 }
 
+.container {
+  /*width: 750px;
+  padding: auto auto;*/
+  margin-right: auto;
+  margin-left: auto;
+}
+
 element.style {
   margin: auto;
   padding: auto;
   border: auto;
 }
 
-small-container {
-  margin: 12px;
+.small_container {
+  border: solid 0.5px #d1d1d1;
+  padding: 5px 0px;
   padding: 15px;
 }
 
@@ -43,11 +51,8 @@ small-container {
   box-sizing: border-box;
   line-height: 20px;
   min-height: 1px;
-  padding-bottom: 5px;
   margin-bottom: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
+  padding: 5px;
   position: relative;
   text-size-adjust: 100%;
   width: 750px;
@@ -64,6 +69,7 @@ form {
 }
 
 .hidden-xs {
-  border: auto;
   margin: auto auto;
+  border: auto auto;
+  padding: auto auto;
 }

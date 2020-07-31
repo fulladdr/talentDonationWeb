@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>application_form</title>
+    <title>course_board</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -35,7 +35,7 @@
       <div class="post_element header">
         게시판
       </div>
-      <div class="small_container">
+      <div class="container small_container">
         <table class="table table-nomargin">
           <thead>
             <tr>
@@ -214,7 +214,7 @@
         </table>
       </div>
     </div>
-      <form class="searchbar" method="get" action="/board/5/1" accept-charset="UTF-8">
+      <form class="searchbar container" method="get" action="/board/5/1" accept-charset="UTF-8">
         <div class="col-lg-8" style="padding:5px 0px;">
             <select name="field" class="form-control">
                 <option value="title">제목</option>
@@ -223,12 +223,12 @@
             </select>
             <input type="text" name="q" class="form-control" style="width:100%;">
         </div>
-        <div class="col-lg-4" style="padding:5px;">
+        <div class="col-lg-4" style="padding:5px 0px;">
             <button type="submit" class="btn btn-default" style="width:100%;"><i class="fa fa-search"></i>검색</button>
         </div>
     </form>
     <div class="col-lg-offset-5 col-lg-2 hidden-xs" style="padding:5px;">
-      <a class="btn btn-red write" href="content.html" style="width:100%;"><i class="glyphicon glyphicon-pencil"></i>글쓰기</a>
+      <a class="btn btn-red write" href="content.html" style="width:750px;"><i class="glyphicon glyphicon-pencil"></i>글쓰기</a>
   </div>
 </div>
     </main>
