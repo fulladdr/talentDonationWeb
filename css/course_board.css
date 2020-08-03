@@ -5,10 +5,14 @@
 }
 
 .post_element {
-  font-size: 25px;
-  padding: 50px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(216, 150, 172);
+  border-bottom: solid;
+  border-color: rgba(88, 18, 18, 0.2);
+  padding: 80px 0px;
   padding-left: 10px;
-  padding-top: 100px;
+  padding-bottom: 10px;
 }
 
 table {
