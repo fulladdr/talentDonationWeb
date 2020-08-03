@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+* {
+  box-sizing: border-box;
+}
+/*
+body {
+  font-family: sans-serif;
+  background-color: #f9fafc;
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: #010d3c;
+  font-weight: 600;
+}
+*/
+.phone {
+  margin-top: 50px;
+  background-color: #f7f7f7;
+  width: 300px;
+  height: 600px;
+  border-radius: 40px;
+  box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+    30px 30px 40px rgba(118, 146, 180, 0.18);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+  padding: 30px 10px;
+  background: linear-gradient(white, #f7f7f7, lightgrey);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  align-items: center;
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.tab-bar .tab-bar__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 16px;
+  margin: 0px;
+}
+.tab-bar {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  right: 0px;
+  left: 0px;
+  height: 50px;
+  bottom: 0px;
+  box-shadow: 5px 5px 40px rgba(118, 146, 180, 0.5);
+  align-items: center;
+}
+.tab-bar .tab-bar__list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.tab-bar__list .tab-bar__tab {
+  color: grey;
+  width: 12%;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.tab-bar__list .tab-bar__tab:nth-child(2),
+.main-red {
+  color: #e85160;
+}
+
+.popular-boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-boxes__column {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 280px;
+  align-items: center;
+}
+/*
+.popular-boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+*/
+.popular-box {
+  position: relative;
+  width: 20%;
+  height: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.popular-box__name {
+  z-index: 100;
+  font-weight: 600;
+}
+.popular-box__cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(rgba(241, 242, 246, 0.2), black);
+  opacity: 0.5;
+}
+.box1 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT2ihICtsolw1uuTJNb5AxBNA9BwkDBrDBIBoeuWGOXjMD6D7lp&usqp=CAU");
+  background-size: cover;
+}
+
+.box2 {
+  background: url("https://www.cravingsofalunatic.com/wp-content/uploads/2015/09/Strawberry-Filled-Mini-Puff-Pastries-6-1024x683.jpg");
+  background-size: cover;
+}
+
+.box3 {
+  background: url("https://babyfoode.com/wp-content/uploads/2016/11/immune_boost_baby_food-2.jpg");
+  background-size: cover;
+}
+.box4 {
+  background: url("https://www.thespruceeats.com/thmb/Ue0sngR9rReS4Hk84I8nckmv22M=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/banana-smoothie-recipes-759606-hero-01-d2abaa79f3204030a0ec0a8940456acc.jpg");
+  background-size: cover;
+}
+.other-box {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  height: 45px;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.other-box__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.other-box__name {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.other-box__def {
+  font-size: 9.5px;
+  opacity: 0.5;
+  font-weight: 700;
+}
+
+.main-popular {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
