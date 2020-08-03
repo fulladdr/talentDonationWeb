@@ -1,8 +1,11 @@
-@import "login.css";
 @import "status-bar.css";
 @import "course_board.css";
 @import "course_information.css";
 @import "profile.css";
+@import "variables.css";
+@import "login-signup.css";
+@import "popular.css";
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 html {
@@ -28,9 +31,13 @@ body {
   padding-right: 0 !important;
 }
 
+input:focus {
+  outline: none;
+}
+
 a {
+  color: inherit;
   text-decoration: none;
-  color: black;
 }
 
 nav {

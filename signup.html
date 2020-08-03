@@ -7,25 +7,29 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <div class="status-bar__title">
-          <i class="fas fa-cube"></i>
-          <span class="status-bar__name">BLOCKPINK</span>
+    <header>
+      <nav
+        class="navbar navbar-inverse navbar-fixed-top navbar-inverse-e66060 nav-bar-edit mgothic"
+      >
+        <div class="container" id="nav_container">
+          <div class="status-bar">
+            <div class="status-bar__column">
+              <div class="status-bar__title">
+                <i class="fas fa-cube"></i>
+                <span class="status-bar__name"><a href="index.html">BLOCKPINK</a></span>
+              </div>
+            </div>
+            <div class="status-bar__column">
+              <div class="status-bar__button login">
+                <a href="login.html">로그인</a>
+              </div>
+              <div class="status-bar__button signup"><a href="join.html">회원가입</a></div>
+              <div class="status-bar__button profile"><a href="profile.html">나의 프로필</a></div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="status-bar__column">
-        <div class="status-bar__button login">
-          <a href="login1.html">로그인</a>
-        </div>
-        <div class="status-bar__button signup">
-          <a href="join.html">회원가입</a>
-        </div>
-        <div class="status-bar__button profile">
-          <a href="profile.html">나의 프로필</a>
-        </div>
-      </div>
-    </div>
+      </nav>
+    </header>
 
     <header class="welcome-header">
       <h1 class="welcome-header__title">블록핑크 계정 만들기</h1>
@@ -48,9 +52,6 @@
       <a href="login.html">로그인</a>
     </form>
 
-    <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -38,14 +38,14 @@ body {
   background: linear-gradient(white, #f7f7f7, lightgrey);
 }
 
-.header {
+/*.header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   align-items: center;
-}
+}*/
 
 .main-title {
   display: flex;
