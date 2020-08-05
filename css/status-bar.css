@@ -1,11 +1,16 @@
 .status-bar {
+  font-size: 15px;
   position: fixed;
   width: 100%;
   top: 0;
+  border-bottom: solid 0.2px rgba(128, 128, 128, 0.4);
+  background-color: white;
   display: flex;
   justify-content: center;
 }
 .status-bar__column {
+  color: rgb(216, 150, 172);
+  font-weight: 400;
   width: 50%;
   display: flex;
   flex-wrap: wrap;
@@ -45,4 +50,9 @@
 }
 .main__search:focus {
   outline: none;
+}
+
+.status-bar__title {
+  color: rgb(216, 150, 172);
+  font-weight: bold;
 }
