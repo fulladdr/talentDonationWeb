@@ -25,15 +25,6 @@
   padding: 20px 10px 20px 0px;
 }
 
-.title {
-  /*margin: 0 auto;*/
-  margin-top: 100px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 .main__searchcontainer {
   padding: 5px;
   margin-top: 40px;
@@ -42,7 +33,7 @@
   display: flex;
   align-items: center;
   border: 2px solid gray;
-  border-radius: 15px;
+  border-radius: 5px;
   flex-direction: column;
 }
 

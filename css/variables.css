@@ -1,4 +1,5 @@
 :root {
-  --yellow: cornflowerblue;
+  --yellow: rgb(93, 90, 226);
+  /*--yellow: cornflowerblue;*/
   --horizontal-space: 25px;
 }
